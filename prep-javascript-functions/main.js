@@ -60,3 +60,5 @@ function cube(number) {
 
 var cubeResult = cube(5);
 console.log('cube Exercise:', cubeResult);
+
+// Completed prep-javascript-functions exercise.

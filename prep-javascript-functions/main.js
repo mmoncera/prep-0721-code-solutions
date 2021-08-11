@@ -10,7 +10,11 @@ function convertHoursToMinutes(hours) {
 }
 
 var convertHoursToMinutesResult = convertHoursToMinutes(2);
-console.log(
-  'convertHoursToMinutesResult Exercise:',
-  convertHoursToMinutesResult
-);
+console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResult);
+
+function getGreeting(name) {
+  return 'Hello ' + name + '!';
+}
+
+var getGreetingResult = getGreeting('World');
+console.log('getGreeting Exercise:', getGreetingResult);
